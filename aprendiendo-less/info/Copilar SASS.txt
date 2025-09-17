@@ -1,0 +1,5 @@
+- Ir al la carpeta del proyecto/ cd / dir
+- Usar el siguiente comando: lessc (archivo sass) (archivo css)
+
+Ejemplo:
+lessc estilos.less styles.css

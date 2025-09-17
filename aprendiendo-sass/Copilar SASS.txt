@@ -1,0 +1,5 @@
+- Ir al la carpeta del proyecto/ cd / dir
+- Usar el siguiente comando: sass --watch (archivo sass) (archivo css)
+
+Ejemplo:
+sass --watch estilos.css styles.css
