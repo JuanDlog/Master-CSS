@@ -1,24 +1,25 @@
-
-body{
+body {
+    --rojo: red;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center; 
+    text-align: center;
 }
 
-#layout{
+#layout {
     display: flex;
-   /* 
+    /* 
    flex-direction: row;
     flex-wrap: wrap;
     */
     flex-flow: row wrap;
-
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 600px;
     border: 3px solid black;
     padding: 5px;
 }
 
-.caja{
+.caja {
     flex-grow: 1;
-    
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -29,23 +30,23 @@ body{
     background: grey;
 }
 
-.red{
-    flex-grow: 25;
-    background: red
+.red {
+    align-self: flex-start;
+    background: var(--rojo);
 }
 
-.green{
-    flex-grow: 7;
+.green {
+    /*margin-top: 11%;*/
+    align-self: center;
     background: green;
 }
 
-.blue{
-    flex-grow: 0;
-    flex-shrink: 0;
+.blue {
+    align-self: center;
     background: blue;
 }
 
-.orange{
-    flex-grow: 7;
+.orange {
+    align-self: flex-end;
     background: orange;
 }
