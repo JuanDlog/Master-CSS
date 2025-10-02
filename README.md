@@ -11,6 +11,17 @@ Puedes acceder al curso en el siguiente enlace:
 
 ---
 
+
+## Estructura
+
+- `RepasoJS`: Clase extra para aprender JavaScript.
+- `maquetacion-1`: Maquetación web con HTML5 y CSS3.
+- `maquetacion-2`: Maquetación web avanzada con HTML5 y CSS3 (incluye transiciones, efectos y animaciones).
+- `maquetacion-3`: Maquetación web flexible con HTML, CSS, Flexbox y Responsive.
+- `maquetacion-4`: Maquetación web de Flexbox a CSS Grid Layout.
+
+---
+
 ## Recursos adicionales
 
 - [Certificado](https://www.udemy.com/certificate/UC-e1a2c2a6-2695-4c94-a125-4ac2cfdae072/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com)  
